@@ -6,7 +6,7 @@
     $port = "port=5432";
     $dbname = "dbname=test_1ojf";
     $user = "user=gdaniel";
-    $password = "0NmFc8wQbrIDqtPAK4nKzdwARVGvVVFR";
+    $password = "password=0NmFc8wQbrIDqtPAK4nKzdwARVGvVVFR";
 
     $db = pg_connect("$host $port $dbname $user $password");
 
